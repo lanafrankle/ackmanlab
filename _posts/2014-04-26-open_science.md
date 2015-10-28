@@ -1,8 +1,9 @@
 ---
 title: Open science
+author: James B. Ackman
 layout: post
-Date: 2014-04-26 04:50:10  
-Tags: science, research, peer review, literature, opinion, open source, software development, markdown, data sharing, database  
+date: 2014-04-26 04:50:10  
+tags: science, research, peer review, literature, opinion, open source, software development, markdown, data sharing, database  
 ---
 
 [open data repository](http://datadryad.org) used for cboettingers publications.
@@ -17,49 +18,11 @@ On application page:
 
 >Write a program that prints out the numbers 1 to 100 (inclusive). If the number is divisible by 3, print Crackle instead of the number. If it's divisible by 5, print Pop. If it's divisible by both 3 and 5, print CracklePop. You can use any language.
 
-
-[plotly library](https://github.com/ropensci/plotly) for interactive graphs in webbrowser. With python, R, matlab.
-
 [http://software-carpentry.org/v4/data/mgmt.html](http://software-carpentry.org/v4/data/mgmt.html)
 
 
-# Data visualization
 
-Cool gist hack. A [bl.ocks.org](http://bl.ocks.org) is a viewer for github gists if you have it titled index.html. People have used this to render beautiful plots and graphs using [D3](http://d3js.org).
-
-D3 uses vocabulary that comes from webstandards of html, css, and svg. An alternative project is [Processing.js](http://processing.org/examples/), which can do alot, but is a whole new vocabulary. 
-
-* Actually here is an implementation of OpenCV in processing.js](https://github.com/atduskgreg/opencv-processing)
-* Processing seems to be big in artistic, computational visualizations
-
-D3 basically uses html, css, and svg to produce nice graphics for quantitative data.
-
-Check out this [beautiful matrix with different ordering options](http://bost.ocks.org/mike/miserables/) rendered using D3 on a Les miserables co-occurence dataset from Donald Knuth.
-
-Mike Bostock is the author [github/mbostock](https://github.com/mbostock/d3/wiki/Gallery)
-
-
-[boxplot visualization using d3](http://bl.ocks.org/mbostock/40615020)
-
-
-
-Contour plots of the volcano dataset using [R --> json --> D3](http://vis.supstat.com/2012/11/contour-plots-with-d3-and-r/).
-
-[Why we don't yet have interactive graphics](http://www.biostat.wisc.edu/~kbroman/talks/InteractiveGraphs/). Comments on hadley wickham working on interactive versions of ggplot. D3 is the best option right now, but pretty low level and several thins that need to be learned, like javascript. 
-
-http://timelyportfolio.github.io/gridSVG_intro/
-
-
-[Simple examples combing R, gridSVG package and d3.js](http://timelyportfolio.github.io/gridSVG_intro/) to make interactive graphics (tool tips on a scatterplot) from any grid based graphics in R (lattice or ggplot2)
-
-
-[Shiny package](http://shiny.rstudio.com/gallery) by RStudio might be the way to go for now with my R plots.   e.g. [here is a matrix with hierarchal clustering](http://shiny.rstudio.com/gallery/absolutely-positioned-panels.html) on the sides. Could have toggles for different orders.  Same with the graphs.
-
-
-
-
-
-# Open models database
+## Open models database
 
 http://physiomeproject.org/software/cm
 
@@ -75,12 +38,12 @@ Curated from
 
 
 
-#  Data management tools
+##  Data management tools
 
 2015-02-25 17:01:22
 
 
-## Permanent repositories
+### Permanent repositories
 
 Both of these are supported exports from [rOpenScience](http://ropensci.org)
 
@@ -105,7 +68,7 @@ But people have also used [Omnigraffle](https://www.omnigroup.com/omnigraffle/),
 
 Stencil for drawing [IDEF1X compliant data models using IEEE notation (crows feet)](https://www.graffletopia.com/stencils/588):
 
-![](/assets/Screen_Shot_2015-08-10_at_11.38.16_AM.png)
+![]({{site.data_path}}/Screen_Shot_2015-08-10_at_11.38.16_AM.png)
 
 
 Some people have used it for [MySQL visualization](http://mabblog.com/blog/2012/03/scripting-omnigraffle-mysql-json-visualization/) and export an omnigraffle hierarchy
@@ -120,14 +83,13 @@ Here is a [gist for a ruby script that uses OSX scripting bridge to pull hierarc
 
 # Synapse
 
-Talk (2013) by Stephen Friend at 10th annual Allen Brain Institute symposium (at youtube) on need for github for science. Introduces [Synapse'](http://sagebase.org/synapse/) is a platform which is supposed to be just that.
+Talk (2013) by Stephen Friend at 10th annual Allen Brain Institute symposium ([at youtube](https://www.youtube.com/watch?v=b24TOINYIqY)) on need for github for science. Introduces [Synapse](http://sagebase.org/synapse/) which is a platform which is supposed to be just that.
 
-![](/figures/Screen_Shot_2015-08-28_at_2.29.53_PM.png)
-![](/figures/Screen_Shot_2015-08-28_at_2.29.04_PM.png)
-![](/figures/Screen_Shot_2015-08-28_at_2.28.56_PM.png)
-![](figures/Screen_Shot_2015-08-28_at_2.28.48_PM.png)
-![](figures/Screen_Shot_2015-08-28_at_2.28.43_PM.png)
 
+![]({{site.data_path}}/Screen_Shot_2015-08-28_at_2.29.04_PM.png)
+![]({{site.data_path}}/Screen_Shot_2015-08-28_at_2.29.53_PM.png)
+![]({{site.data_path}}/Screen_Shot_2015-08-28_at_2.28.56_PM.png)
+![]({{site.data_path}}/Screen_Shot_2015-08-28_at_2.28.48_PM.png)
 
 [Core code is on Github](http://gitub.com/Sage-Bionetworks/)
 
