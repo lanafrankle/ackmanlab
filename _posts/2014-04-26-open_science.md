@@ -93,7 +93,7 @@ Talk (2013) by Stephen Friend at 10th annual Allen Brain Institute symposium ([a
 
 [Core code is on Github](http://gitub.com/Sage-Bionetworks/)
 
-[https://www.synapse.org/#!Wiki:syn2305384/ENTITY](https://www.synapse.org/#!Wiki:syn2305384/ENTITY)
+[synapse.org Wiki entry](https://www.synapse.org/#!Wiki:syn2305384/ENTITY)
 
 >for biomedical data scientists we have created an environment that aids these users in sharing all of their digital research assets including data, code, and analysis results. These assets can be broadly shared and accessed through a unified set of RESTful APIs – through which Synapse provides integration points in R, Python, and the Linux shell in order to enable dissemination of findings across common analytical environments.   
 

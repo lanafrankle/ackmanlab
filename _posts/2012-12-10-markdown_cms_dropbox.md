@@ -52,13 +52,9 @@ Tools:
 	- [Project system on gitHub](http://ttscoff.github.com/QuickQuestion/)
 * [nvAlt on Tumbler](http://www.tumblr.com/tagged/nvalt)
 * Personal wiki software list [personal wiki info](http://physbank.referata.com/wiki/Personal_Wiki_Software)
-	* [](http://c2.com/cgi/wiki?DesktopWiki)
-	
-* http://golem.ph.utexas.edu/wiki/instiki/show/HomePage
-
-* http://www.azimuthproject.org/azimuth/show/Self-organization
-
-
+	- [DesktopWiki](http://c2.com/cgi/wiki?DesktopWiki)	
+* [instiki](http://golem.ph.utexas.edu/wiki/instiki/show/HomePage)
+* [azimuth](http://www.azimuthproject.org/azimuth/show/Self-organization)
 * github, jekyll, octopress
 
 
@@ -231,7 +227,7 @@ The [rpubs](http://www.rpubs.com) site is a place to publish R documents.  Some 
 
 [R markdown](http://www.rstudio.com/ide/docs/r_markdown)
 
-[R markdown notebook])(http://www.rstudio.com/ide/docs/authoring/markdown_notebooks)
+[R markdown notebook](http://www.rstudio.com/ide/docs/authoring/markdown_notebooks)
 
 
 

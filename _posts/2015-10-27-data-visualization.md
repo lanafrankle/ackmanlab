@@ -2,8 +2,8 @@
 title: Data Visualization
 author: James B. Ackman
 layout: post
-date: 2014-04-26 04:50:10  
-update: 2015-10-27 14:27:22  
+date: 2015-10-27 14:27:22  
+date original: 2014-04-26 04:50:10  
 tags: open science, research, open source, software development, markdown, data sharing, database, visualization  
 ---
 
