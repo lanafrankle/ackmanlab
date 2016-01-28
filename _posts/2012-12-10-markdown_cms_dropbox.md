@@ -2,49 +2,38 @@
 author: James B. Ackman  
 title: Markdown CMS
 layout: post
-date: 2012-12-10  
-tags: markdown, cms, dropbox, website, lab, notebook, html5
+date: 2016-01-28 13:23:28  
+date original: 2012-12-10  
+tags: markdown, cms, dropbox, website, lab, notebook, html5, git, open science, openscience  
 ---
-
-## Dropbox CMS
-
-Notes from an [article on lifehacker](http://lifehacker.com/5860139/host-web-pages-for-free-within-dropbox-with-droppages-or-pancakeio) on dropbox public website cms services.
-
-With all these services they are best for small websites, not for big organizations or ones with lots of page hits as there is a dropbox limit per day and you your account can get suspended.
-
-* [Pancake](http://Pancake.io/)
-	- Preview common files like word, pdf documents right in browser
-	- works with html, js, css, and plain text
-	- 'free to sign up'
-* [DropPages](http://droppages.com/)
-	- markdown friendly
-	- content gzipped and cached for best performance possible.
-	
-* [VoodooPad](http://flyingmeat.com/voodoopad/)
-	- Personal wiki
-	- MacOS and iOS only?
-	- $39.95
-	- tons of export options
-	- sketching
-	- unix shell scripting executiable
-	- markdown friendly
-	- project management
-	- used by many of the markdown geeks
-
 
 ## Markdown
 
-* Plain text
-* Supported by Tumblr
+* Plain text (future proof!)
+* Simple [syntax](http://daringfireball.net/projects/markdown/syntax), human readable.
+* Widely supported syntax. e(.g. Tumblr, GitHub, etc)
 * Supported by some wikis like MediaWiki with plugins
-* App called Drafts featured on lifehacker, Simplenote also, nvAlt, resophNotes for Windows
-* [syntax](http://daringfireball.net/projects/markdown/syntax)
-* Manuscript preparation [using multiple .md documents in Marked](file:///Applications/Marked.app/Contents/Resources/Marked%20Help.help/Just_for_Writers/Multi-File_Documents.html)
+* Manuscript preparation [using multiple .md documents in Marked](http://marked2app.com/help/Multi-File_Documents.html)
 	* Option for paper writing with or without Scrivener
 
 
+### Writing for the web, not the desktop
 
-Tools:
+[Moving away from the world of 'paper document' layouts](http://www.tedcurran.net/2012/10/why-write-for-paper-or-how-i-learned-to-stop-worrying-and-love-html/)
+
+[Why markdown](http://www.tedcurran.net/2012/09/using-markdown-a-quicker-way-to-write-for-the-web/)
+
+
+
+
+###Markdown tools
+
+* [Multimarkdown](http://fletcherpenney.net/multimarkdown/) is an extended markdown version with nice citation and table support. Nice for academic writing needs.
+* [pandoc](http://pandoc.org/) Universal document converter to/from different formats. For example markup languages (e.g. Markdown, MediaWiki, reStructuredText), LaTeX, html, LibreOffice, Microsoft Word...
+* github, jekyll, octopress: version control + collaboration, site generation, content management.
+* [Marked](http://marked2app.com/). Powerful and super flexible markdown/multimarkdown document previewer/exporter. Highly recommended if you are on MacOS.
+* App called Drafts featured at lifehacker for iOS. Powerful and flexible. Also simplenote, **nvAlt** for Mac, resophNotes for Windows
+
 
 * Wiki cms powered by MediaWiki for a lab:  
 	- [Wiki educator example lab webpage](http://wikieducator.org/User:Cooper_lab)
@@ -55,31 +44,42 @@ Tools:
 	- [DesktopWiki](http://c2.com/cgi/wiki?DesktopWiki)	
 * [instiki](http://golem.ph.utexas.edu/wiki/instiki/show/HomePage)
 * [azimuth](http://www.azimuthproject.org/azimuth/show/Self-organization)
-* github, jekyll, octopress
 
+
+
+## Dropbox CMS
+
+Notes from an [article on lifehacker](http://lifehacker.com/5860139/host-web-pages-for-free-within-dropbox-with-droppages-or-pancakeio) on dropbox public website cms services.
+
+With all these services they are best for small websites, not for big organizations or ones with lots of page hits as there is a dropbox limit per day and your account can get suspended.
+
+* [Pancake](http://Pancake.io/)
+	- Preview common files like word, pdf documents right in browser
+	- works with html, js, css, and plain text
+	- 'free to sign up'
+* [DropPages](http://droppages.com/)
+	- markdown friendly
+	- content gzipped and cached for best performance possible.
+* [VoodooPad](http://flyingmeat.com/voodoopad/)
+	- Personal wiki
+	- MacOS and iOS
+	- tons of export options
+	- sketching
+	- unix shell scripting executiable
+	- markdown friendly
+	- project management
 
 
 
 ## Lab notebook 
 
-open science initiative using git, github, R, knitr, flickr for image hosting?
+Open science initiative using git, github, R, knitr.  Git based **distributed version control** is key to this sort of open project (software | science | data | documentation | manuscript) workflow. [A more technical explanation of git magic](http://www-cs-students.stanford.edu/~blynn/gitmagic/ch08.html).
 
-[Carl Boettiger example](http://carlboettiger.info/lab-notebook.html)  and github project hosting for [labnotebook](https://github.com/cboettig)
+[Carl Boettiger example](http://carlboettiger.info/lab-notebook.html) and github project hosting for [labnotebook](https://github.com/cboettig)
 
 http://ropensci.org
 
-
-
 [nvAlt git selective note sharing](http://afitnerd.com/2011/07/28/notational-velocity-git-team-note-sharing/)
-
-
-
-
-## Writing for the web, not the desktop
-
-[Moving away from the world of 'paper document' layouts](http://www.tedcurran.net/2012/10/why-write-for-paper-or-how-i-learned-to-stop-worrying-and-love-html/)
-
-[Why markdown](http://www.tedcurran.net/2012/09/using-markdown-a-quicker-way-to-write-for-the-web/)
 
 
 
@@ -87,13 +87,15 @@ http://ropensci.org
 
 ### Popular html presentation solutions
 
-[rvl.io](http://www.tedcurran.net/2013/02/making-html5-presentations-in-the-cloud-with-markdown-rvl-io/)
+[from tedcurran.net](http://www.tedcurran.net/2013/02/making-html5-presentations-in-the-cloud-with-markdown-rvl-io/):  
 
 >Highly technical GitHub dwellers have long used HTML5 presentations like Impress,js, Reveal.js, and Google’s HTML5 Rocks Presentations to impress fellow hackers with lean, well designed code and hand-tooled design.
 
+[slid.es](http://slides.com/)
+
 Some are trying to emulate the non-linear prezi format. Some give traditional slide based formatting to markdown documents
 
-[impress.js](http://bartaz.github.io/impress.js/#/bored)
+impress.js
 
 [reveal.js](http://lab.hakim.se/reveal-js/#/)  [download latest release](https://github.com/hakimel/reveal.js/releases)
 
