@@ -2,17 +2,22 @@
 title: Open science
 author: James B. Ackman
 layout: post
-date: 2014-04-26 04:50:10  
+date: 2015-09-15  
+date original: 2014-04-26 04:50:10  
 tags: science, research, peer review, literature, opinion, open source, software development, markdown, data sharing, database  
 ---
 
-[open data repository](http://datadryad.org) used for cboettingers publications.
+[open data repository](http://datadryad.org)  
 
-[ropen science hackathon](http://simplystatistics.org/2014/04/10/the-ropensci-hackathon-ropenhack/). ropenscience is a big grant that cboettinger is part of.
+<!-- used for cboettingers publications. -->
+
+[ropen science hackathon](http://simplystatistics.org/2014/04/10/the-ropensci-hackathon-ropenhack/).  
+
+<!-- ropenscience is a big grant that cboettinger is part of. -->
 
 [R ipython notebook bindings project](https://github.com/takluyver/IRkernel)
 
-[hacker school sounds awesome](https://www.hackerschool.com)
+[hacker school](https://www.hackerschool.com)
 
 On application page:  
 

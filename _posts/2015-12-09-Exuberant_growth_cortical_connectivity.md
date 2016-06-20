@@ -22,7 +22,7 @@ From Sur review in TINS 1990 [^Sur:1990]
 
 > Each cortical area has a unique pattern of input and output connections. However, early in development, single cortical cells send collaterals to many targets that they later retract. Thus, motor cortex and visual cortex both project to the pyramidal tract in neonatal rats, but visual cortical cells withdraw these projections [^OLeary:1989] 
 
-From O'Leary Ann Rev Neurosci 1994 p. 432
+From O'Leary Ann Rev Neurosci 1994 p. 432 [^OLeary:1994]
 
 >"Indeed, at the time thalamic afferents reach their appropriate cortical area, layer 4 neurons, their principle target cells are still being generated and few if any have migrated into the cortical plate (Lund & Mustari 1977, Shatz & Luskin 1986, Reinoso & O'Leary 1990)."
 
@@ -35,6 +35,7 @@ McConnell [^McConnell:1985] [^McConnell:1988] has evidence from heterochronic tr
 
 
 ---
+[^OLeary:1994]: O'Leary, D. D., Schlaggar, B. L., and Tuttle, R. (1994).  Specification of neocortical areas and thalamocortical connections, Annu Rev Neurosci, 17(), 419-39
 
 [^McConnell:1985]: McConnell, S. K. (1985).  Migration and differentiation of cerebral cortical neurons after transplantation into the brains of ferrets, Science, 229(4719), 1268-71
 

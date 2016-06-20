@@ -11,7 +11,7 @@ tags: markdown, cms, dropbox, website, lab, notebook, html5, git, open science, 
 
 * Plain text (future proof!)
 * Simple [syntax](http://daringfireball.net/projects/markdown/syntax), human readable.
-* Widely supported syntax. e(.g. Tumblr, GitHub, etc)
+* Widely supported syntax. (e.g. GitHub, Tumblr, etc)
 * Supported by some wikis like MediaWiki with plugins
 * Manuscript preparation [using multiple .md documents in Marked](http://marked2app.com/help/Multi-File_Documents.html)
 	* Option for paper writing with or without Scrivener
@@ -28,12 +28,13 @@ tags: markdown, cms, dropbox, website, lab, notebook, html5, git, open science, 
 
 ###Markdown tools
 
-* [Multimarkdown](http://fletcherpenney.net/multimarkdown/) is an extended markdown version with nice citation and table support. Nice for academic writing needs.
+* [Multimarkdown](http://fletcherpenney.net/multimarkdown/) is an extended version of markdown with nice citation and table support. Very nice for academic writing needs.
 * [pandoc](http://pandoc.org/) Universal document converter to/from different formats. For example markup languages (e.g. Markdown, MediaWiki, reStructuredText), LaTeX, html, LibreOffice, Microsoft Word...
 * github, jekyll, octopress: version control + collaboration, site generation, content management.
 * [Marked](http://marked2app.com/). Powerful and super flexible markdown/multimarkdown document previewer/exporter. Highly recommended if you are on MacOS.
 * App called Drafts featured at lifehacker for iOS. Powerful and flexible. Also simplenote, **nvAlt** for Mac, resophNotes for Windows
 
+Additional tools workflow examples:  
 
 * Wiki cms powered by MediaWiki for a lab:  
 	- [Wiki educator example lab webpage](http://wikieducator.org/User:Cooper_lab)
