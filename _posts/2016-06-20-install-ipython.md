@@ -14,7 +14,7 @@ Download [Anaconda](https://www.continuum.io/downloads) and run the installer. T
 # change the following url to the most recent one from https://repo.continuum.io/archive/
 wget http://repo.continuum.io/archive/Anaconda3-4.0.0-Linux-x86_64.sh #download the installer
 bash Anaconda3-4.0.0-Linux-x86_64.sh #run the installer script
-export PATH=/afs/cats.ucsc.edu/users/n/jackman/anaconda3/bin:$PATH #append to your path so you can use conda to create environment below
+export PATH=/path/to/anaconda3/bin:$PATH #change this pathname accordingly and append to your shell path so you can use conda to create environment below
 ```
 
 Then from your command-line environment (e.g. linux Terminal on OS X, check out the [unix tricks/tutorial](https://gist.github.com/ackman678/6290329)), create a new python environment:
