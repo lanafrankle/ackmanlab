@@ -1,0 +1,68 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+name: James Ackman
+title: ackmanlab
+owner: James Ackman
+email: jackman@ucsc.edu
+description: > # this means to ignore newlines until "baseurl:"
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://ackmanlab.com" # the base hostname & protocol for your site
+#url: "http://ackmanlab.com.s3-website-us-west-2.amazonaws.com"
+twitter_username: JamesAckman
+github_username:  ackmanlab
+data_path: https://s3-us-west-2.amazonaws.com/int.data.ackmanlab.com/assets
+
+# Build settings
+markdown: redcarpet
+redcarpet:
+  extensions: [no_intra_emphasis, fenced_code_blocks, tables, footnotes]
+
+#  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "footnotes", "superscript", "with_toc_data"]
+
+#-----
+
+# Build settings
+# markdown: kramdown
+# kramdown:
+#  input: GFM
+
+#------
+
+# gems:
+#   - jekyll-pandoc
+
+# markdown: pandoc
+
+# # pandoc:
+# #   extensions: ['from=markdown+footnotes']
+
+# pandoc:
+#   extensions:
+#     - smart
+#     - mathjax
+
+#from=markdown+definition_lists+backtick_code_blocks  #this doesn't work for some reason
+#--------
+
+# gems:
+#   - pandoc-ruby
+
+# markdown: Pandoc      # capital P
+# pandoc:
+#   flags: [-f]
+#   options: [definition_lists]
+
+#--------
+
+#extensions: [footnotes]
+
+highligher: pygments
+
+exclude: [s3_website.yml, assets, vendor, README.md]
