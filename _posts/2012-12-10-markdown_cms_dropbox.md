@@ -1,37 +1,32 @@
 ---
-author: James B. Ackman  
-title: Markdown CMS
-layout: post
+author: James Ackman  
+title: Markdown  
+layout: post  
 date: 2016-01-28 13:23:28  
 date original: 2012-12-10  
 tags: markdown, cms, dropbox, website, lab, notebook, html5, git, open science, openscience  
 ---
 
-## Markdown
-
 * Plain text (future proof!)
-* Simple [syntax](http://daringfireball.net/projects/markdown/syntax), human readable.
-* Widely supported syntax. (e.g. GitHub, Tumblr, etc)
-* Supported by some wikis like MediaWiki with plugins
-* Manuscript preparation [using multiple .md documents in Marked](http://marked2app.com/help/Multi-File_Documents.html)
-	* Option for paper writing with or without Scrivener
+* Simple [syntax](http://daringfireball.net/projects/markdown/syntax), human readable
+* Wide community support and usage (e.g. GitHub, Tumblr, etc) by both bloggers and programmers
+* Supported by some wikis (like MediaWiki) with plugins
 
+## Writing for the web, not the desktop
 
-### Writing for the web, not the desktop
-
-[Moving away from the world of 'paper document' layouts](http://www.tedcurran.net/2012/10/why-write-for-paper-or-how-i-learned-to-stop-worrying-and-love-html/)
+All the content we now produce lives mostly on the web and *sometimes* on paper. So when it comes to designing and creating content we should [move away from the world of 'paper document' layouts](http://www.tedcurran.net/2012/10/why-write-for-paper-or-how-i-learned-to-stop-worrying-and-love-html/) -- i.e we should stop forcing our initially created content into 8.5" x 11" or A4 page layouts. Instead, write documents (mixed with text, images, links, etc) with a simple set of structured rules (e.g. Markdown) which then allows for flexible conversion downstream into multiple types of documents: html, pdf, Word, etc.
 
 [Why markdown](http://www.tedcurran.net/2012/09/using-markdown-a-quicker-way-to-write-for-the-web/)
 
 
-
-
-###Markdown tools
+## Markdown tools
 
 * [Multimarkdown](http://fletcherpenney.net/multimarkdown/) is an extended version of markdown with nice citation and table support. Very nice for academic writing needs.
 * [pandoc](http://pandoc.org/) Universal document converter to/from different formats. For example markup languages (e.g. Markdown, MediaWiki, reStructuredText), LaTeX, html, LibreOffice, Microsoft Word...
 * github, jekyll, octopress: version control + collaboration, site generation, content management.
 * [Marked](http://marked2app.com/). Powerful and super flexible markdown/multimarkdown document previewer/exporter. Highly recommended if you are on MacOS.
+	* Manuscript preparation [using multiple .md documents in Marked](http://marked2app.com/help/Multi-File_Documents.html)
+		* Option for paper writing with or without Scrivener
 * App called Drafts featured at lifehacker for iOS. Powerful and flexible. Also simplenote, **nvAlt** for Mac, resophNotes for Windows
 
 Additional tools workflow examples:  
@@ -48,7 +43,7 @@ Additional tools workflow examples:
 
 
 
-## Dropbox CMS
+### Dropbox CMS
 
 Notes from an [article on lifehacker](http://lifehacker.com/5860139/host-web-pages-for-free-within-dropbox-with-droppages-or-pancakeio) on dropbox public website cms services.
 
@@ -72,15 +67,18 @@ With all these services they are best for small websites, not for big organizati
 
 
 
-## Lab notebook 
+## Lab notebooks in markdown 
 
 Open science initiative using git, github, R, knitr.  Git based **distributed version control** is key to this sort of open project (software | science | data | documentation | manuscript) workflow. [A more technical explanation of git magic](http://www-cs-students.stanford.edu/~blynn/gitmagic/ch08.html).
 
-[Carl Boettiger example](http://carlboettiger.info/lab-notebook.html) and github project hosting for [labnotebook](https://github.com/cboettig)
+Since a large number of scientific projects these days require substantial data analysis with interactive programming languages like R and python, mixing a structured markup language like markdown with the program interpreter is a very powerful way forward to helping achieve truly reproducible research (together with version control). Tools like [jupyter/ipython notebook](http://jupyter.org/), Rstudio, and [ropensci](http://ropensci.org) do exactly this and can be very helpful in this regard.
 
-http://ropensci.org
+
+Here is an [example lab-notebook from C. Boettiger](http://carlboettiger.info/lab-notebook.html) with [github project hosting]((https://github.com/cboettig).
 
 [nvAlt git selective note sharing](http://afitnerd.com/2011/07/28/notational-velocity-git-team-note-sharing/)
+
+
 
 
 
@@ -94,7 +92,7 @@ http://ropensci.org
 
 [slid.es](http://slides.com/)
 
-Some are trying to emulate the non-linear prezi format. Some give traditional slide based formatting to markdown documents
+Some are trying to emulate the non-linear prezi format. Some give traditional slide based formatting to markdown documents.
 
 impress.js
 
@@ -224,9 +222,6 @@ The [rpubs](http://www.rpubs.com) site is a place to publish R documents.  Some 
 [Example of network visualization in R](http://www.rpubs.com/Felix/7699)
 
 [googleVis package examples](http://www.rpubs.com/estopub/7697)
-
-
-
 
 [R markdown](http://www.rstudio.com/ide/docs/r_markdown)
 

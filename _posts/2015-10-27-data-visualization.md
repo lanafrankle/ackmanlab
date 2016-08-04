@@ -1,6 +1,6 @@
 ---
 title: Data Visualization
-author: James B. Ackman
+author: James Ackman
 layout: post
 date: 2015-10-27 14:27:22  
 date original: 2014-04-26 04:50:10  

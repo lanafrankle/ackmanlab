@@ -2,7 +2,7 @@
 date: 2015-12-08  
 date original: 2014-06-26 09:22:05  
 tags: anesthesia, stages, sleep, awake, cycle, cerebral cortex
-author: James B. Ackman
+author: James Ackman
 layout: post
 title: Anesthesia stages
 ---

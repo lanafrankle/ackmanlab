@@ -1,7 +1,7 @@
 ---
 title: Exuberant growth of cortical connections  
 tags: lab, +research, +reference, literature, Mirror symmetry, connectivity, function, neocortex, wholeBrain, cerebral cortex, connectivity, development  
-author: James B. Ackman  
+author: James Ackman  
 date original: 2012-12-19  
 date: 2015-12-09 00:52:25  
 layout: post

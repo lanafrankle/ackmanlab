@@ -2,7 +2,7 @@
 title: The Great Wave
 date: 2015-12-08 12:01:22
 date original: 2015-08-09  
-author: James B. Ackman
+author: James Ackman
 layout: post
 tags: waves, visualization, art, history
 ---

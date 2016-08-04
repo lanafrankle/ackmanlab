@@ -1,7 +1,7 @@
 ---
 date: 2016-06-20 10:53:56  
 tags: python, opencv, numpy, data analysis  
-author: James B. Ackman  
+author: James Ackman  
 layout: post
 title: Setup jupyter notebook/ipython  
 ---

@@ -1,6 +1,6 @@
 ---
 title: Open science
-author: James B. Ackman
+author: James Ackman
 layout: post
 date: 2015-09-15  
 date original: 2014-04-26 04:50:10  
@@ -8,6 +8,8 @@ tags: science, research, peer review, literature, opinion, open source, software
 ---
 
 [open data repository](http://datadryad.org)  
+
+[open science framework](https://osf.io/) for data sharing and collaboration. Has GitHub and AWS integrations. Free, open source from the Center for Open Science. 
 
 <!-- used for cboettingers publications. -->
 
@@ -17,30 +19,7 @@ tags: science, research, peer review, literature, opinion, open source, software
 
 [R ipython notebook bindings project](https://github.com/takluyver/IRkernel)
 
-[hacker school](https://www.hackerschool.com)
-
-On application page:  
-
->Write a program that prints out the numbers 1 to 100 (inclusive). If the number is divisible by 3, print Crackle instead of the number. If it's divisible by 5, print Pop. If it's divisible by both 3 and 5, print CracklePop. You can use any language.
-
 [http://software-carpentry.org/v4/data/mgmt.html](http://software-carpentry.org/v4/data/mgmt.html)
-
-
-
-## Open models database
-
-http://physiomeproject.org/software/cm
-
-http://models.physiomeproject.org/welcome
-
-[output to different languages, incl C, fortran, matlab, python](http://models.physiomeproject.org/e/44/tabak_mascagni_bertram_2010.cellml/@@cellml_codegen)
-
-[model of spontaneous activity in developing networks](http://models.physiomeproject.org/e/44/tabak_mascagni_bertram_2010.cellml/@@docgen)
-
-Curated from 
->Joel Tabak, Michael Mascagni, Richard Bertram, 2010, Journal of Neurophysiology, volume 103, 2208-2221. PubMed ID: 20164396
-
-
 
 
 ##  Data management tools
@@ -53,7 +32,8 @@ Curated from
 Both of these are supported exports from [rOpenScience](http://ropensci.org)
 
 [DataONE](https://www.dataone.org/best-practices).  Collab between NSF, UC Santa Barbra, Univ New Mexico, Oak Ridge, etc. Like fig share but bigger more flexible?
-http://figshare.com
+
+[figshare](http://figshare.com)
 
 
 [DMPTool](https://dmp.cdlib.org) from UC Digital Library for creating data management plans for funding agencies-- for collection and storage during and after projects.
@@ -62,21 +42,31 @@ UC3 from University of California Digital Library
 
 
 
+## Open models database
+
+[physiomeproject](http://models.physiomeproject.org/welcome)
+
+[output to different languages, incl C, fortran, matlab, python](http://models.physiomeproject.org/e/44/tabak_mascagni_bertram_2010.cellml/@@cellml_codegen)
+
+[model of spontaneous activity in developing networks](http://models.physiomeproject.org/e/44/tabak_mascagni_bertram_2010.cellml/@@docgen)
+
+Curated from:  
+>Joel Tabak, Michael Mascagni, Richard Bertram, 2010, Journal of Neurophysiology, volume 103, 2208-2221. PubMed ID: 20164396
 
 
 
-# Hierarchical information visualization
+
+## Hierarchical information visualization
 
 [MySQL Workbench](http://dev.mysql.com/downloads/workbench/) is [highly recommended](http://apple.stackexchange.com/questions/82592/is-there-a-good-sql-diagram-editor-drawing-mac-app-tool)
 
-But people have also used [Omnigraffle](https://www.omnigroup.com/omnigraffle/), a classic graphviz based drawling/outlining/layout program for Mac OSX?  Lots of nice graphics stencils (including programming, hardware, software, site design) at [graffletopia](https://www.graffletopia.com/categories/programming)
+People have even used [Omnigraffle](https://www.omnigroup.com/omnigraffle/), a classic graphviz based drawling/outlining/layout program for Mac OSX.  Lots of nice graphics stencils (including programming, hardware, software, site design) at [graffletopia](https://www.graffletopia.com/categories/programming)
 
 Stencil for drawing [IDEF1X compliant data models using IEEE notation (crows feet)](https://www.graffletopia.com/stencils/588):
 
 ![]({{site.data_path}}/Screen_Shot_2015-08-10_at_11.38.16_AM.png)
 
-
-Some people have used it for [MySQL visualization](http://mabblog.com/blog/2012/03/scripting-omnigraffle-mysql-json-visualization/) and export an omnigraffle hierarchy
+Some people have used it for [MySQL visualization](http://mabblog.com/blog/2012/03/scripting-omnigraffle-mysql-json-visualization/) and to export an omnigraffle hierarchy.
 
 [Gist for a Python script to convert MySQL table to omnigraffle](https://gist.github.com/iloveitaly/1486762).  Uses appscript for the omnigraffle Applescript bindings in the Pro version.
 
@@ -86,7 +76,7 @@ Here is a [gist for a ruby script that uses OSX scripting bridge to pull hierarc
 
 
 
-# Synapse
+## Synapse
 
 Talk (2013) by Stephen Friend at 10th annual Allen Brain Institute symposium ([at youtube](https://www.youtube.com/watch?v=b24TOINYIqY)) on need for github for science. Introduces [Synapse](http://sagebase.org/synapse/) which is a platform which is supposed to be just that.
 
