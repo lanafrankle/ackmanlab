@@ -1,7 +1,6 @@
 ---
 layout: page  
-title: People 
-draft: true 
+title: People  
 ---
 
 ## Current
@@ -11,7 +10,6 @@ draft: true
 * Brian Mullen - graduate student
 * Jason Mayo - graduate student
 * Sydney Weiser - graduate student
-
 * Tyler Berkness - undergrad
 * Dolly Kapoor - undergrad
 * Sumanth Gollapudi - undergrad
@@ -25,4 +23,4 @@ draft: true
 * Anthony Fong - undergrad
 * Lana Frankle - undergrad
 
-![](figures/2016-06-12-134339-lab_photo1024.jpg)
+![]({{site.data_path}}/2016-06-12-134339-lab_photo1024.jpg)
