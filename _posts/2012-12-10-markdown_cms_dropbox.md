@@ -1,16 +1,19 @@
 ---
 author: James Ackman  
-title: Markdown  
+title: Write with Markdown  
 layout: post  
 date: 2016-01-28 13:23:28  
 date original: 2012-12-10  
 tags: markdown, cms, dropbox, website, lab, notebook, html5, git, open science, openscience  
 ---
 
+Markdown is a set of simple rules for writing text documents. Benefits include:  
+
 * Plain text (future proof!)
 * Simple [syntax](http://daringfireball.net/projects/markdown/syntax), human readable
 * Wide community support and usage (e.g. GitHub, Tumblr, etc) by both bloggers and programmers
-* Supported by some wikis (like MediaWiki) with plugins
+* Supported by wikis (like MediaWiki) and many tools (see below) for producing content rich in links, graphics, tables, references, and more.
+
 
 ## Writing for the web, not the desktop
 
@@ -24,10 +27,12 @@ All the content we now produce lives mostly on the web and *sometimes* on paper.
 * [Multimarkdown](http://fletcherpenney.net/multimarkdown/) is an extended version of markdown with nice citation and table support. Very nice for academic writing needs.
 * [pandoc](http://pandoc.org/) Universal document converter to/from different formats. For example markup languages (e.g. Markdown, MediaWiki, reStructuredText), LaTeX, html, LibreOffice, Microsoft Word...
 * github, jekyll, octopress: version control + collaboration, site generation, content management.
-* [Marked](http://marked2app.com/). Powerful and super flexible markdown/multimarkdown document previewer/exporter. Highly recommended if you are on MacOS.
-	* Manuscript preparation [using multiple .md documents in Marked](http://marked2app.com/help/Multi-File_Documents.html)
-		* Option for paper writing with or without Scrivener
+* Many easy to use GUI apps exist for rendering Markdown on OSX, iOS, Android, Linux, Windows
+	* [Marked](http://marked2app.com/) is one. Powerful and super flexible markdown/multimarkdown document previewer/exporter. Highly recommended if you are on Mac OSX.
+		* Manuscript preparation [using multiple .md documents in Marked](http://marked2app.com/help/Multi-File_Documents.html)
+			* Option for paper writing with or without Scrivener
 * App called Drafts featured at lifehacker for iOS. Powerful and flexible. Also simplenote, **nvAlt** for Mac, resophNotes for Windows
+
 
 Additional tools workflow examples:  
 
