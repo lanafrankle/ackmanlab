@@ -3,9 +3,7 @@ layout: page
 title: Notes  
 ---
 
-<div class="home">
 <ul class="post-list">
-
 <li>
 <span class="post-meta">{{ site.time | date: "%b %-d, %Y" }}</span>
 <h2>
@@ -22,4 +20,3 @@ title: Notes
 </li>
 {% endfor %}
 </ul>
-</div>

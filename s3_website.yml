@@ -10,7 +10,7 @@ s3_bucket: ackmanlab.com
 # index_document: index.html
 # error_document: error.html
 
-max_age: 86400
+max_age: 600
 
 # max_age:
 #   "assets/*": 6000
