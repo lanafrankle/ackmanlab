@@ -7,7 +7,7 @@ title: Notes
 <li>
 <span class="post-meta">{{ site.time | date: "%b %-d, %Y" }}</span>
 <h2>
-<a class="post-link" href="http://int.ackmanlab.com.s3-website-us-west-2.amazonaws.com/">Local</a>
+{% include icon-bananaslug.html %}
 </h2>
 </li>
 

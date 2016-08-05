@@ -80,3 +80,12 @@ pre code {
     overflow-wrap: normal;
     white-space: pre;
 }
+
+// Color Icons
+.coloricon {
+
+    > svg {
+        display: inline-block;
+        vertical-align: middle;
+    }
+}

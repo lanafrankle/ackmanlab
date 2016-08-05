@@ -18,7 +18,7 @@ title: People
 * Chad Santo Tomas - undergrad
 
 
-## Bygone
+## Past
 
 * Anthony Fong - undergrad
 * Lana Frankle - undergrad
