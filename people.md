@@ -5,7 +5,7 @@ title: People
 
 ## Current
 
-* James Ackman, PhD - PI
+* [James Ackman, PhD](http://jamesackman.com/vita.html "CV") - PI
 * Sarah Hill - lab manager
 * Brian Mullen - graduate student
 * Jason Mayo - graduate student
