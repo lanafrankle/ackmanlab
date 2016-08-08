@@ -74,7 +74,7 @@ With all these services they are best for small websites, not for big organizati
 
 ## Lab notebooks in markdown 
 
-Open science initiative using git, github, R, knitr.  Git based **distributed version control** is key to this sort of open project (software | science | data | documentation | manuscript) workflow. [A more technical explanation of git magic](http://www-cs-students.stanford.edu/~blynn/gitmagic/ch08.html).
+Open science initiative using git, github, R, knitr.  Git based **distributed version control** is key to this sort of open project (software - science - data - documentation - manuscript) workflow. [A more technical explanation of git magic](http://www-cs-students.stanford.edu/~blynn/gitmagic/ch08.html).
 
 Since a large number of scientific projects these days require substantial data analysis with interactive programming languages like R and python, mixing a structured markup language like markdown with the program interpreter is a very powerful way forward to helping achieve truly reproducible research (together with version control). Tools like [jupyter/ipython notebook](http://jupyter.org/), Rstudio, and [ropensci](http://ropensci.org) do exactly this and can be very helpful in this regard.
 

@@ -78,10 +78,8 @@ print("Numpy Version : {0}".format(np.__version__))
 >OpenCV Version : 3.1.0  
 >Numpy Version : 1.10.4  
 
-
 ![]({{site.data_path}}/Screen_Shot_2016-06-20_at_11.13.40_AM.png)
 
 To shut down your session go to *File --> Close and Halt*.
 
 Then from your command-line shell from which the webserver is running, press *control-c* to interrupt/stop.
-

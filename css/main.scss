@@ -51,6 +51,7 @@ th {
   padding: 0;
 }
 
+// @import "bootstrap"; 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
     "base",
@@ -64,12 +65,58 @@ blockquote {
 }
 
 // Import table and code block formatting from bootstrap
-//@import "bootstrap";
-@import "bootstrap/variables";
+// @import "bootstrap"; 
+// @import "bootstrap/variables";
 //@import "bootstrap/normalize";
+// @import "bootstrap/mixins";
+//@import "bootstrap/mixins/text-emphasis";
+//@import "bootstrap/type";
+// @import "bootstrap/tables";
+// @import "bootstrap/code";
+
+
+// Core variables and mixins
+@import "bootstrap/variables";
 @import "bootstrap/mixins";
-@import "bootstrap/tables";
+// @import "bootstrap/mixins/text-emphasis";
+//@import "bootstrap/mixins/image";
+
+// // Reset and dependencies
+// @import "bootstrap/normalize";
+// @import "bootstrap/print";
+// @import "bootstrap/glyphicons";
+
+// // Core CSS
+//@import "bootstrap/scaffolding";
+// @import "bootstrap/type";
 @import "bootstrap/code";
+@import "bootstrap/tables";
+// @import "bootstrap/buttons";
+
+
+// Set figure, figcaptions for caption text to be bounded to image width
+figure {
+   //background-color: #f8f8f8;
+   display: table;
+}
+
+figure img {
+    display: block;
+}
+
+figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    //background: #f8f8f8;
+}
+
+// Fix code block background coloring
+.highlight {
+    background: #f5f5f5;
+    .highlighter-rouge & {
+      background: #f5f5f5;
+    }
+}
 
 // Add back in horizontal x-scrolling for overflow code blocks (otherwise bootstrap/code breaks this)
 pre {
@@ -79,13 +126,31 @@ pre {
 pre code {
     overflow-wrap: normal;
     white-space: pre;
+    background-color: #f5f5f5;
 }
 
 // Color Icons
 .coloricon {
-
     > svg {
         display: inline-block;
         vertical-align: middle;
     }
+}
+
+
+// Description Lists
+dl {
+  margin-top: 0; // Remove browser default
+  margin-bottom: $line-height-computed;
+}
+dt,
+dd {
+  line-height: $line-height-base;
+}
+dt {
+  font-weight: bold;
+}
+dd {
+  margin-left: 0; // Undo browser default
+  padding-left: 30px;
 }

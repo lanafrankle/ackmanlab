@@ -11,22 +11,22 @@ title: Anesthesia stages
 
 Outline for depths of anesthesia. 
 
-Stage I
+Stage I  
 : voluntary movement lasts until loss of consciousness
 
-Stage II
+Stage II  
 : delirium
 : involuntary movement
 : loss of consiousness
 : onset of regular patterned breathing
 
-Stage III surgical anesthesia
+Stage III surgical anesthesia  
 : unconsciousness
 : progressive depression of cardiopulmonary functions
 : depression of reflexes
-: 4 planes. 1 light, 2,3 medium, 4 deep anesthesia
+: 4 planes. 1 light, 2,3 medium, 4 deep anesthesia  
 
-Stage IV
+Stage IV  
 : extreme CNS depression
-: death occurs quickly at this stage
+: death occurs quickly at this stage  
 

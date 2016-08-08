@@ -21,35 +21,63 @@ data_path: https://s3-us-west-2.amazonaws.com/int.data.ackmanlab.com/assets
 local_url: http://int.ackmanlab.com.s3-website-us-west-2.amazonaws.com
 
 # Build settings
-markdown: redcarpet
-redcarpet:
-  extensions: [no_intra_emphasis, fenced_code_blocks, tables, footnotes]
+#highlighter: pygments
+#highlighter: rouge
+# markdown: redcarpet
+# redcarpet:
+#   extensions: [no_intra_emphasis, fenced_code_blocks, tables, footnotes]
 
 #  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "footnotes", "superscript", "with_toc_data"]
 
 #-----
 
-# Build settings
-# markdown: kramdown
+#Build settings
+markdown: kramdown
 # kramdown:
 #  input: GFM
 
 #------
+# gems: [ 'jekyll-pandoc-multiple-formats' ]
 
+# markdown: pandoc
+
+# pandoc:
+#   skip: false
+#   flags: '--smart '
+#   site_flags: '--toc'
+
+
+# pandoc:
+#   flags: '--from=markdown+definition_lists'
+
+# pandoc:
+#   flags: '--highlight-style espresso'
+
+#------
 # gems:
 #   - jekyll-pandoc
 
-# markdown: pandoc
+# markdown: Pandoc
+
+
+# pandoc:
+#   extensions: 'from=markdown_mmd'
+
 
 # # pandoc:
 # #   extensions: ['from=markdown+footnotes']
 
-# pandoc:
+# Pandoc:
 #   extensions:
 #     - smart
 #     - mathjax
+#     - highlight-style 'pygments'
 
 #from=markdown+definition_lists+backtick_code_blocks  #this doesn't work for some reason
+
+# pandoc:
+#   extensions: ['from=markdown+definition_lists+backtick_code_blocks']
+
 #--------
 
 # gems:
@@ -64,6 +92,5 @@ redcarpet:
 
 #extensions: [footnotes]
 
-highligher: pygments
 
 exclude: [s3_website.yml, assets, vendor, README.md]
