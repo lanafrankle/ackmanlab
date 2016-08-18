@@ -26,6 +26,10 @@ $content-width:    1000px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+// Override default bootstrap code/code block colors
+$code-color:       $text-color;
+$code-bg:          #f5f5f5;
+
 // Use media queries like this:
 // @include media-query($on-palm) {
 //     .wrapper {
@@ -51,7 +55,7 @@ th {
   padding: 0;
 }
 
-// @import "bootstrap"; 
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
     "base",
@@ -59,35 +63,28 @@ th {
     "syntax-highlighting"
 ;
 
+
 // Override blockquote font size from _base.scss
 blockquote {
     font-size: $base-font-size * 1.1;
 }
 
-// Import table and code block formatting from bootstrap
+// Import bootstrap table and code block formatting
 // @import "bootstrap"; 
-// @import "bootstrap/variables";
-//@import "bootstrap/normalize";
-// @import "bootstrap/mixins";
-//@import "bootstrap/mixins/text-emphasis";
-//@import "bootstrap/type";
-// @import "bootstrap/tables";
-// @import "bootstrap/code";
-
 
 // Core variables and mixins
 @import "bootstrap/variables";
 @import "bootstrap/mixins";
 // @import "bootstrap/mixins/text-emphasis";
-//@import "bootstrap/mixins/image";
+// @import "bootstrap/mixins/image";
 
-// // Reset and dependencies
+// Reset and dependencies
 // @import "bootstrap/normalize";
 // @import "bootstrap/print";
 // @import "bootstrap/glyphicons";
 
-// // Core CSS
-//@import "bootstrap/scaffolding";
+// Core CSS
+// @import "bootstrap/scaffolding";
 // @import "bootstrap/type";
 @import "bootstrap/code";
 @import "bootstrap/tables";
@@ -96,7 +93,7 @@ blockquote {
 
 // Set figure, figcaptions for caption text to be bounded to image width
 figure {
-   //background-color: #f8f8f8;
+   //background-color: $background-color;
    display: table;
 }
 
@@ -107,15 +104,20 @@ figure img {
 figcaption {
     display: table-caption;
     caption-side: bottom;
-    //background: #f8f8f8;
+    //background: $background-color;
 }
 
-// Fix code block background coloring
+// Fix code block background coloring from syntax-highlighting.scss
 .highlight {
-    background: #f5f5f5;
+    background: $code-bg;
     .highlighter-rouge & {
-      background: #f5f5f5;
+      background: $code-bg;
     }
+}
+
+// Fix inline code padding
+code {
+    padding: 1px 2px;
 }
 
 // Add back in horizontal x-scrolling for overflow code blocks (otherwise bootstrap/code breaks this)
@@ -126,7 +128,6 @@ pre {
 pre code {
     overflow-wrap: normal;
     white-space: pre;
-    background-color: #f5f5f5;
 }
 
 // Color Icons
@@ -137,8 +138,7 @@ pre code {
     }
 }
 
-
-// Description Lists
+// Definition Lists
 dl {
   margin-top: 0; // Remove browser default
   margin-bottom: $line-height-computed;
